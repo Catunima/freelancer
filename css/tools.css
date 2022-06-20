@@ -1,0 +1,26 @@
+:root{
+    /*Paleta de colores*/
+    --blanco:#ffffff;
+    --oscuro:#212121;
+    --primario:#FFC107;
+    --gris:#757575;
+    --secundario:#0097A7;
+
+    --fuente-principal:3.8rem;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+.button-blue{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    
+}
