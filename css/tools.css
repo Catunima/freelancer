@@ -22,5 +22,14 @@ html{
     margin-top: 1rem;
     font-size: 2rem;
     text-decoration: none;
-    
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+}
+@media(min-width: 768px) {
+    .button-blue{
+        width:auto;
+    }
 }
