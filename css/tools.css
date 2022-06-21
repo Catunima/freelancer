@@ -27,6 +27,19 @@ html{
     border-radius: .5rem;
     width: 90%;
     text-align: center;
+    border: none;
+}
+.button-blue:hover{
+    cursor: pointer;
+}
+
+.w-100{
+    width: 100%;
+}
+@media(min-width: 768px) {
+    .w-100{
+        width: auto;
+    }
 }
 @media(min-width: 768px) {
     .button-blue{

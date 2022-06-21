@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/tools.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Diseñador Freelancer</title>
 </head>
 <body>
@@ -99,40 +99,41 @@
                     tenetur unde accusamus ullam quod.</p>
             </section>
         </div>
+        
+
+        <section>
+            <h2>Contacto</h2>
+
+            <form class="formulario" action="">
+                <fieldset>
+                    <legend>Contactame llenando todos los campos</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label for="">Nombre</label>
+                            <input class="input-text" type="text" placeholder="Ej. Juan">
+                        </div>
+                        <div class="campo">
+                            <label for="">Telefono</label>
+                            <input class="input-text" type="tel" placeholder="999-888-777" name="" id="">
+                        </div>
+                        <div class="campo">
+                            <label for="">Correo</label>
+                            <input class="input-text" type="email" placeholder="example@ejemplo.com">
+                        </div>
+                        <div class="campo">
+                            <label for="">Mensaje</label>
+                            <textarea class="input-text" name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="alinear-derecha flex">
+                        <input class="button-blue w-100" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+
+         </section>
     </main>
-
-    <section>
-        <h2>Contacto</h2>
-
-        <form action="">
-            <fieldset>
-                <legend>Contactame llenando todos los campos</legend>
-
-                <div>
-                    <label for="">Nombre</label>
-                    <input type="text" placeholder="Ej. Juan">
-                </div>
-                <div>
-                    <label for="">Telefono</label>
-                    <input type="tel" placeholder="999-888-777" name="" id="">
-                </div>
-                <div>
-                    <label for="">Correo</label>
-                    <input type="email" placeholder="example@ejemplo.com">
-                </div>
-                <div>
-                    <label for="">Mensaje</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <input type="submit" value="Enviar">
-                </div>
-            </fieldset>
-        </form>
-
-    </section>
-
-    <footer>
+    <footer class="footer">
         <p>Todos los derechos reservados. Eduardo flores Freelancer</p>
     </footer>
 </body>
