@@ -101,8 +101,8 @@ de h1*/
 .servicios,
 .navegacion-principal,
 .formulario{
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
+    /*scroll-snap-align: center;
+    scroll-snap-stop: always;*/
 }
 @media(min-width: 768px) {
     .servicios{
